@@ -28,9 +28,6 @@ jobs:
           path: .
           submodules: recursive
 
-      - name: Dependencies
-        run: git clone https://github.com/Kampi/KiCad.git library
-
       - name: Extract branch name
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
 
