@@ -1,4 +1,4 @@
-name: Build2
+name: Build
 
 on:
   workflow_dispatch:
@@ -13,9 +13,6 @@ jobs:
 
     permissions:
       contents: write
-
-    env:
-      KICAD_LIBRARY: /home/runner/work/ZSWatch-HW/ZSWatch-HW/library
 
     strategy:
       matrix:
