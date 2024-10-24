@@ -267,7 +267,7 @@ outputs:
 
   - name: "3D rendering"
     comment: "3D rendering"
-    type: render_3d
+    type: blender_export
     dir: docs/images
     category: "documentation"
     options:
