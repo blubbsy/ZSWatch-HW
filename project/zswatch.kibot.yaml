@@ -236,6 +236,7 @@ outputs:
         title: "%f BOM"
         hide_stats_info: false
         quote_all: true
+        logo: false
 
   - name: "ZIP Gerber"
     comment: "ZIP Gerber"
